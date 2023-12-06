@@ -1,0 +1,137 @@
+body {
+    background-color: #fff;
+    color: #000;
+    max-width: 1600px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100px;
+    padding-top: 0;
+    flex-direction:column;
+    overflow-x: none;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1600px;
+}
+.forms{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    margin-top: 0px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.shipping-form, .discount-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.shipping-form label, input, .discount-form label, input{
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.shipping-form button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+   
+}
+
+.discount-form  input[type="submit"]{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7px;
+   
+}
+
+.order-container {
+    background-color: #f0f0f0;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.order-details {
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-details p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+
+.order-items table {
+    width: 100%;
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-items th, .order-items td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.order-items th {
+    background-color: #a9a9a9;
+}
+
+.delete-form, .update-form {
+    margin-top: 10px;
+}
+
+.delete-form input[type="submit"], .update-form input[type="submit"], select {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right:  10px;
+}
+
+.delete-form input[type="submit"]:hover, .update-form input[type="submit"]:hover, select:hover {
+    background-color: #2980b9;
+}
+
+.hr-line {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
